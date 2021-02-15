@@ -13,6 +13,11 @@ thumbBar.appendChild(newImage);
 newImage.onclick = function(p) {
     displayedImage.src = p.target.src;
 }
+/*newImage.addEventListener("click", imgFunction);
+
+function imgFunction(p) {
+    displayedImages.src = p.target.src;
+}*/
 
 }
 
