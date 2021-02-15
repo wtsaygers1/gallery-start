@@ -9,5 +9,8 @@ const overlay = document.querySelector('.overlay');
 const newImage = document.createElement('img');
 newImage.setAttribute('src', xxx);
 thumbBar.appendChild(newImage);
+newImage.onclick = function(p) {
+    displayedImage.src = p.target.src;
+}
 
 /* Wiring up the Darken/Lighten button */
